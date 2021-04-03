@@ -1,0 +1,23 @@
+{
+  "name": "naat-eslintrc",
+  "version": "0.0.1",
+  "description": "Style rules for js code at NAAT",
+  "main": "eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neuroanatomy/naat-eslintrc.git"
+  },
+  "keywords": [
+    "eslintrc",
+    "naat"
+  ],
+  "author": "Roberto Toro <rto@braincatalogue.org> (https://neuroanatomy.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neuroanatomy/naat-eslintrc/issues"
+  },
+  "homepage": "https://github.com/neuroanatomy/naat-eslintrc#readme"
+}
