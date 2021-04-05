@@ -221,6 +221,7 @@ module.exports = {
     "prefer-arrow-callback": "off",
     "prefer-const": "error",
     "prefer-destructuring": "error",
+    "prefer-exponentiation-operator": "error",
     "prefer-numeric-literals": "error",
     "prefer-promise-reject-errors": "error",
     "prefer-reflect": "off",
