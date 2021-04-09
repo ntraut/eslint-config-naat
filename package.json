@@ -1,5 +1,5 @@
 {
-  "name": "naat-eslintrc",
+  "name": "eslint-config-naat",
   "version": "0.0.1",
   "description": "Style rules for js code at NAAT",
   "main": "eslintrc.js",
