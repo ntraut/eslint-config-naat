@@ -17,3 +17,12 @@ Then add this to your `.eslintrc.js` file:
   ]
 }
 ```
+
+Alternatively, for a new project, you can create an `.eslintrc.js` file
+containing only this:
+
+```
+module.exports = {
+  "extends": [ "naat" ]
+};
+```
