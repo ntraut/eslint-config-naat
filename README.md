@@ -23,6 +23,6 @@ containing only this:
 
 ```
 module.exports = {
-  "extends": [ "naat" ]
+  "extends": ["naat"]
 };
 ```
