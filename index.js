@@ -7,6 +7,7 @@ module.exports = {
   },
   "extends": "eslint:recommended",
   "parserOptions": {
+    "ecmaVersion": "latest",
     "sourceType": "module"
   },
   "rules": {
@@ -230,7 +231,7 @@ module.exports = {
     "prefer-spread": "error",
     "prefer-template": "off",
     "quote-props": "off",
-    "quotes": "single",
+    "quotes": ["error", "single"],
     "radix": "error",
     "require-await": "error",
     "require-jsdoc": "off",
