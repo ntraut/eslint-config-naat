@@ -1,7 +1,6 @@
 module.exports = {
   "env": {
     "browser": true,
-    "es6": true,
     "es2017": true,
     "node": true
   },
@@ -157,7 +156,7 @@ module.exports = {
     "no-octal-escape": "error",
     "no-param-reassign": "off",
     "no-path-concat": "error",
-    "no-plusplus": "off",
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
     "no-process-env": "off",
     "no-process-exit": "error",
     "no-proto": "error",
