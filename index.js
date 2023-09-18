@@ -9,6 +9,7 @@ module.exports = {
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
+  "plugins": ["import"],
   "rules": {
     "accessor-pairs": "error",
     "array-bracket-newline": "error",
@@ -72,6 +73,7 @@ module.exports = {
     "id-blacklist": "error",
     "id-length": "off",
     "id-match": "error",
+    "import/order": "error",
     "indent": ["error", 2],
     "indent-legacy": "off",
     "init-declarations": "off",
@@ -241,7 +243,7 @@ module.exports = {
       "error",
       "last"
     ],
-    "sort-imports": "error",
+    "sort-imports": "off",
     "sort-keys": "off",
     "sort-vars": "error",
     "space-before-blocks": "error",
