@@ -20,7 +20,7 @@
     "url": "https://github.com/neuroanatomy/eslint-config-naat/issues"
   },
   "homepage": "https://github.com/neuroanatomy/eslint-config-naat#readme",
-  "devDependencies": {
+  "peerDependencies": {
     "eslint-plugin-import": "^2.28.1"
   }
 }
