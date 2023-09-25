@@ -73,7 +73,16 @@ module.exports = {
     "id-blacklist": "error",
     "id-length": "off",
     "id-match": "error",
-    "import/order": "error",
+    "import/order": [
+      "error",
+      {
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true,
+        },
+        "newlines-between": "always"
+      }
+    ],
     "indent": ["error", 2],
     "indent-legacy": "off",
     "init-declarations": "off",
